@@ -1,6 +1,5 @@
+// Force redeploy - 2024-06-24
 import nodemailer from 'nodemailer';
-import dotenv from 'dotenv';
-dotenv.config();
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {

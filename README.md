@@ -117,7 +117,7 @@
 
 ## 9. **Live Site & Repo**
 
-- **Live Site**: [Your Vercel URL]
+- **Live Site**: https://styledbyneha.vercel.app/
 - **GitHub Repo**: [https://github.com/SurveSahil/styledbyneha](https://github.com/SurveSahil/styledbyneha)
 
 ---

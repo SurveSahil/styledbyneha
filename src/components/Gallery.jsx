@@ -157,6 +157,25 @@ const Gallery = () => {
         </div>
       ))}
         </div>
+        {/* More Images Section */}
+        <div className="text-center mt-20">
+          <h3 className="text-4xl md:text-5xl font-light tracking-tight mb-6">
+            <span className="bg-gradient-to-r from-black to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
+              Want to see more?
+            </span>
+          </h3>
+          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 font-light max-w-3xl mx-auto mb-8">
+            Explore a wider selection of my work in the drive link.
+          </p>
+          <a
+            href="https://www.google.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-4 rounded-full border border-pink-100 dark:border-white/10 text-pink-500 dark:text-white text-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-pink-500/50 bg-white/90 dark:bg-white/5 hover:bg-pink-50 dark:hover:bg-white/10 shadow-lg"
+          >
+            View More on Drive
+          </a>
+        </div>
     </div>
   </section>
 );

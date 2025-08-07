@@ -4,9 +4,9 @@ import BridalA from '../assets/Bridal_A_desktop.JPG';
 import BridalA1 from '../assets/Bridal_A1_desktop.JPG';
 import BridalA2 from '../assets/Bridal_A2_desktop.JPG';
 import BridalA3 from '../assets/Bridal_A3_desktop.JPG';
-import BridalB from '../assets/Bridal_B.jpg';
+import BridalB from '../assets/Bridal_B.PNG';
 import BridalB1 from '../assets/Bridal_B1.jpg';
-import BridalB2 from '../assets/Bridal_B2_desktop.jpg';
+import BridalB2 from '../assets/Bridal_B2.JPG';
 import BridalC from '../assets/Bridal_C_desktop.JPG';
 import BridalC1 from '../assets/Bridal_C1_desktop.JPG';
 // Party
@@ -34,7 +34,6 @@ import BridalAMobile from '../assets/Bridal_A_mobile.JPG';
 import BridalA1Mobile from '../assets/Bridal_A1_mobile.JPG';
 import BridalA2Mobile from '../assets/Bridal_A2_mobile.JPG';
 import BridalA3Mobile from '../assets/Bridal_A3_mobile.JPG';
-import BridalB2Mobile from '../assets/Bridal_B2_mobile.jpg';
 import BridalCMobile from '../assets/Bridal_C_mobile.JPG';
 import BridalC1Mobile from '../assets/Bridal_C1_mobile.JPG';
 import PartyMobile from '../assets/Party_mobile.jpg';
@@ -65,9 +64,9 @@ const allImages = [
   { desktop: BridalA1, mobile: BridalA1Mobile, alt: 'Bridal Look', category: 'Bridal', size: 'normal' },
   { desktop: BridalA2, mobile: BridalA2Mobile, alt: 'Bridal Look', category: 'Bridal', size: 'normal' },
   { desktop: BridalA3, mobile: BridalA3Mobile, alt: 'Bridal Look', category: 'Bridal', size: 'large' },
-  { desktop: BridalB, mobile: BridalB2Mobile, alt: 'Bridal Look', category: 'Bridal', size: 'normal' },
-  { desktop: BridalB1, mobile: BridalB2Mobile, alt: 'Bridal Look', category: 'Bridal', size: 'normal' },
-  { desktop: BridalB2, mobile: BridalB2Mobile, alt: 'Bridal Look', category: 'Bridal', size: 'normal' },
+  { desktop: BridalB, mobile: BridalB, alt: 'Bridal Look', category: 'Bridal', size: 'normal' },
+  { desktop: BridalB1, mobile: BridalB1, alt: 'Bridal Look', category: 'Bridal', size: 'normal' },
+  { desktop: BridalB2, mobile: BridalB2, alt: 'Bridal Look', category: 'Bridal', size: 'normal' },
   { desktop: BridalC, mobile: BridalCMobile, alt: 'Bridal Look', category: 'Bridal', size: 'large' },
   { desktop: BridalC1, mobile: BridalC1Mobile, alt: 'Bridal Look', category: 'Bridal', size: 'normal' },
   // Party
@@ -155,12 +154,12 @@ const Gallery = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
         </div>
-      </div>
-    </section>
-  );
+      ))}
+        </div>
+    </div>
+  </section>
+);
 };
 
-export default Gallery; 
+export default Gallery;

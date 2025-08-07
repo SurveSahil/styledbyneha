@@ -274,12 +274,12 @@ const Contact = () => {
                   {status.message}
                 </div>
               )}
-            </form>
+    </form>
           </div>
         </div>
       </div>
-    </section>
-  );
+  </section>
+);
 };
 
 export default Contact; 

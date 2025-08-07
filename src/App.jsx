@@ -1,4 +1,5 @@
-import { useState, useEffect, createContext } from 'react';
+import { useState, useEffect } from 'react';
+import { ThemeContext } from './contexts/ThemeContext';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
@@ -6,9 +7,6 @@ import Gallery from './components/Gallery';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Socials from './components/Socials';
-
-// Optional: Context for theme if needed in children
-export const ThemeContext = createContext();
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
